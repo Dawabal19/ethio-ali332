@@ -1,0 +1,47 @@
+==============================================
+  EthioAlibaba — እንዴት እንደሚጠቀሙ (በ 3 እርምጃዎች)
+==============================================
+
+ደረጃ 1: ZIP-ውን ዝግጅ (Extract)
+  - ethioalibaba_final.zip ላይ right-click → "Extract All"
+  - የሚፈጠረውን folder ክፈት
+
+ደረጃ 2: ዋጋ ይሰጡ (1 ጊዜ ብቻ)
+  - ".env" የሚለውን file ከ Notepad ጋር ክፈት
+  - TELEGRAM_BOT_USERNAME=ethioalibaba_bot  (ተዘጋጅቷል ✓)
+  - TELEGRAM_CHAT_ID=1931570585
+    → የእርስዎ Telegram ID ከሆነ ተዘጋጅቷል
+    - ካልተረጋገጠ፦ Telegram ላይ @userinfobot ጽፈህ የእርስዎን ID አግኝ
+    - እዚያ ያለውን ቁጥር .env ውስጥ ለውጥ
+
+ደረጃ 3: አሂድ!
+  - "run.bat" ላይ DOUBLE-CLICK አድርግ
+  - ጥቂት ሰከንዶች ቆይ → Website + Bot ሁለቱም ይሄዳሉ!
+  - Website: http://127.0.0.1:5000
+
+==============================================
+  BOT እንደሰራ መረጋገጥ (Test)
+==============================================
+1. Telegram ክፈት → @ethioalibaba_bot ፈልግ → Start
+2. /start ጽፍ → መልስ መጣል አለበት!
+3. /track ETHA1B2C3 → "not found" ቢልም ቢሆን መልስ መጣል አለበት
+4. Website ላይ order አድርግ → order-ው ወዲያውኑ ወደ ቦትህ ይመጣል
+
+❓ ችግር ከገጠመ:
+   - Bot መልስ ከሌለው → run.bat ውስጥ የሚታየውን error ስክሪንሹት ላክ
+   - Python ከጎደለ → https://www.python.org/downloads/ ("Add Python to PATH" ብለህ ፈትሽ!)
+
+
+==============================================
+  ⭐ ለ 24/7 ONLINE (ኮምፒውተር ሳይከፈት)
+==============================================
+  DEPLOY_AMHARIC.md ክፈት — PythonAnywhere (ነጻ)
+  ላይ በ 5 ደቂቃ deploy አድርግ!
+
+
+==============================================
+  ⭐ 24/7 DEPLOY (GitHub + Render — ነጻ)
+==============================================
+  DEPLOY_AMHARIC.md ክፈት — 4 steps ብቻ!
+  GitHub repo ፍጠር → Render ጋር connect →
+  environment variables ጨምር → Deploy!
